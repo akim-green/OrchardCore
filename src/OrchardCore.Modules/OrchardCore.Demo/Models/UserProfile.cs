@@ -2,7 +2,7 @@ using System;
 
 namespace OrchardCore.Demo.Models
 {
-    public class UserProfile
+    public class UserProfile : ContentPart
     {
         public int Age { get; set; }
         public string FirstName { get; set; }
